@@ -86,8 +86,8 @@ Now the policy rules in the `database` are probably like this:
 g, alice, admin
 g, bob, member
 
-p, memeber, /foo, GET
-p, memeber, /foo/:id, GET
+p, member, /foo, GET
+p, member, /foo/:id, GET
 
 g, admin, member
 
